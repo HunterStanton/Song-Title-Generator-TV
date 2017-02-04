@@ -12,6 +12,7 @@
 		7CE681A81E45CAB900109F10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE681A61E45CAB900109F10 /* Main.storyboard */; };
 		7CE681AA1E45CAB900109F10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE681A91E45CAB900109F10 /* Assets.xcassets */; };
 		7CE681B61E45CCFC00109F10 /* TitleDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE681B51E45CCFC00109F10 /* TitleDictionary.swift */; };
+		7CE681B91E45D57600109F10 /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = 7CE681B81E45D57600109F10 /* COPYING */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		7CE681AB1E45CAB900109F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CE681B51E45CCFC00109F10 /* TitleDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleDictionary.swift; sourceTree = "<group>"; };
 		7CE681B71E45D40F00109F10 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7CE681B81E45D57600109F10 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 			isa = PBXGroup;
 			children = (
 				7CE681B71E45D40F00109F10 /* README.md */,
+				7CE681B81E45D57600109F10 /* COPYING */,
 				7CE681A11E45CAB900109F10 /* Song Title Generator TV */,
 				7CE681A01E45CAB900109F10 /* Products */,
 			);
@@ -157,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CE681B91E45D57600109F10 /* COPYING in Resources */,
 				7CE681AA1E45CAB900109F10 /* Assets.xcassets in Resources */,
 				7CE681A81E45CAB900109F10 /* Main.storyboard in Resources */,
 			);
