@@ -52,13 +52,45 @@
 		7CE681A11E45CAB900109F10 /* Song Title Generator TV */ = {
 			isa = PBXGroup;
 			children = (
-				7CE681A21E45CAB900109F10 /* AppDelegate.swift */,
-				7CE681A41E45CAB900109F10 /* ViewController.swift */,
-				7CE681A61E45CAB900109F10 /* Main.storyboard */,
+				7CE681B41E45CB4800109F10 /* Storyboards */,
+				7CE681B31E45CB3A00109F10 /* Controllers */,
+				7CE681B21E45CB3600109F10 /* Delegates */,
+				7CE681B11E45CB2F00109F10 /* Resources */,
+			);
+			path = "Song Title Generator TV";
+			sourceTree = "<group>";
+		};
+		7CE681B11E45CB2F00109F10 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				7CE681A91E45CAB900109F10 /* Assets.xcassets */,
 				7CE681AB1E45CAB900109F10 /* Info.plist */,
 			);
-			path = "Song Title Generator TV";
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7CE681B21E45CB3600109F10 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				7CE681A21E45CAB900109F10 /* AppDelegate.swift */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		7CE681B31E45CB3A00109F10 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7CE681A41E45CAB900109F10 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7CE681B41E45CB4800109F10 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7CE681A61E45CAB900109F10 /* Main.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,7 +125,7 @@
 				TargetAttributes = {
 					7CE6819E1E45CAB900109F10 = {
 						CreatedOnToolsVersion = 8.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -247,6 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Song Title Generator TV/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HunterStanton.Song-Title-Generator-TV";
@@ -260,6 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Song Title Generator TV/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HunterStanton.Song-Title-Generator-TV";
