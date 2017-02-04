@@ -10,6 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // The label that will show the adjective
+    @IBOutlet weak var AdjectiveLabel: UILabel!
+    
+    // The adjective that will show the noun
+    @IBOutlet weak var NounLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +26,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func GenerateButtonPressed(_ sender: Any) {
+        // Bit long winded, but works
+        AdjectiveLabel.text = TitleDictionary.adjectives[Int(arc4random_uniform(UInt32(TitleDictionary.adjectives.count)))]
+        NounLabel.text = TitleDictionary.nouns[Int(arc4random_uniform(UInt32(TitleDictionary.nouns.count)))]
+    }
 
 }
 
