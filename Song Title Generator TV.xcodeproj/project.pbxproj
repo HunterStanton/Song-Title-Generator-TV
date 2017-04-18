@@ -41,10 +41,10 @@
 		7CE681961E45CAB900109F10 = {
 			isa = PBXGroup;
 			children = (
-				7CE681B71E45D40F00109F10 /* README.md */,
-				7CE681B81E45D57600109F10 /* COPYING */,
-				7CE681A11E45CAB900109F10 /* Song Title Generator TV */,
 				7CE681A01E45CAB900109F10 /* Products */,
+				7CE681A11E45CAB900109F10 /* Song Title Generator TV */,
+				7CE681B81E45D57600109F10 /* COPYING */,
+				7CE681B71E45D40F00109F10 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,10 +59,10 @@
 		7CE681A11E45CAB900109F10 /* Song Title Generator TV */ = {
 			isa = PBXGroup;
 			children = (
-				7CE681B41E45CB4800109F10 /* Storyboards */,
 				7CE681B31E45CB3A00109F10 /* Controllers */,
 				7CE681B21E45CB3600109F10 /* Delegates */,
 				7CE681B11E45CB2F00109F10 /* Resources */,
+				7CE681B41E45CB4800109F10 /* Storyboards */,
 			);
 			path = "Song Title Generator TV";
 			sourceTree = "<group>";
@@ -75,6 +75,7 @@
 				7CE681B51E45CCFC00109F10 /* TitleDictionary.swift */,
 			);
 			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		7CE681B21E45CB3600109F10 /* Delegates */ = {
@@ -83,6 +84,7 @@
 				7CE681A21E45CAB900109F10 /* AppDelegate.swift */,
 			);
 			name = Delegates;
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 		7CE681B31E45CB3A00109F10 /* Controllers */ = {
@@ -91,6 +93,7 @@
 				7CE681A41E45CAB900109F10 /* ViewController.swift */,
 			);
 			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		7CE681B41E45CB4800109F10 /* Storyboards */ = {
@@ -99,6 +102,7 @@
 				7CE681A61E45CAB900109F10 /* Main.storyboard */,
 			);
 			name = Storyboards;
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +192,7 @@
 				7CE681A71E45CAB900109F10 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -290,7 +295,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "Song Title Generator TV/Info.plist";
+				INFOPLIST_FILE = "Song Title Generator TV/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HunterStanton.Song-Title-Generator-TV";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -305,7 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "Song Title Generator TV/Info.plist";
+				INFOPLIST_FILE = "Song Title Generator TV/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HunterStanton.Song-Title-Generator-TV";
 				PRODUCT_NAME = "$(TARGET_NAME)";
